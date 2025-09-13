@@ -13,6 +13,7 @@ public class Mapper {
     dto.setDueAt(t.getDueAt());
     return dto;
   }
+
   public static Task fromDto(TaskDTO dto) {
     Task t = new Task();
     t.setId(dto.getId());
